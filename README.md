@@ -19,7 +19,7 @@ GGML files are for CPU + GPU inference using [chatglm.cpp](https://github.com/li
 | chatglm2-ggml-q4_1.bin | q4_1 | 4 | 3.9 GB  |
 | chatglm2-ggml-q5_0.bin | q5_0 | 5 | 4.3 GB  |
 | chatglm2-ggml-q5_1.bin | q5_1 | 5 | 4.7 GB  |
-| chatglm2-ggml-q5_1.bin | q8_0 | 8 | 6.6 GB  |
+| chatglm2-ggml-q8_0.bin | q8_0 | 8 | 6.6 GB  |
 
 
 # How to run in xorbits-inference
