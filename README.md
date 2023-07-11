@@ -6,7 +6,7 @@ license: apache-2.0
 
 These files are GGML format model files for [THUDM's chatglm2 6B](https://huggingface.co/THUDM/chatglm2-6b).
 
-GGML files are for CPU + GPU inference using [chatglm.cpp](https://github.com/li-plus/chatglm.cpp) and xorbits-inference (coming soon).
+GGML files are for CPU + GPU inference using [chatglm.cpp](https://github.com/li-plus/chatglm.cpp) and [Xorbits Inference](https://github.com/xorbitsai/inference).
 
 # Prompt template
 **NOTE**: prompt template is not available yet since the system prompt is hard coded in chatglm.cpp for now.
@@ -22,8 +22,25 @@ GGML files are for CPU + GPU inference using [chatglm.cpp](https://github.com/li
 | chatglm2-ggml-q8_0.bin | q8_0 | 8 | 6.6 GB  |
 
 
-# How to run in xorbits-inference
-Coming soon.
+# How to run in Xorbits Inference
+
+## Install
+Xinference can be installed via pip from PyPI. It is highly recommended to create a new virtual environment to avoid conflicts.
+
+```bash
+$ pip install "xinference[all]"
+$ pip install chatglm-cpp
+```
+
+## Start Xorbits Inference
+To start a local instance of Xinference, run the following command:
+```bash
+$ xinference
+```
+
+Once Xinference is running, an endpoint will be accessible for model management via CLI or Xinference client. The default endpoint is `http://localhost:9997`. You can also view a web UI using the Xinference endpoint to chat with all the builtin models. You can even chat with two cutting-edge AI models side-by-side to compare their performance!
+
+![Xinference web UI](https://github.com/xorbitsai/inference/blob/main/assets/demo.gif)
 
 # Slack
 For further support, and discussions on these models and AI in general, join our [slack channel](https://join.slack.com/t/xorbitsio/shared_invite/zt-1o3z9ucdh-RbfhbPVpx7prOVdM1CAuxg)!
