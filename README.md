@@ -40,7 +40,7 @@ $ xinference
 
 Once Xinference is running, an endpoint will be accessible for model management via CLI or Xinference client. The default endpoint is `http://localhost:9997`. You can also view a web UI using the Xinference endpoint to chat with all the builtin models. You can even chat with two cutting-edge AI models side-by-side to compare their performance!
 
-![Xinference web UI](https://github.com/xorbitsai/inference/blob/main/assets/demo.gif)
+![Xinference web UI](https://xorbits.cn/assets/images/announcing-xinference/xinference_web_ui.jpg)
 
 # Slack
 For further support, and discussions on these models and AI in general, join our [slack channel](https://join.slack.com/t/xorbitsio/shared_invite/zt-1o3z9ucdh-RbfhbPVpx7prOVdM1CAuxg)!
